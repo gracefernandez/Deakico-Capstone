@@ -106,6 +106,7 @@ export default function Header() {
                 <MenuLink link='/#' onClick={handleClose}>Services</MenuLink>
                 <MenuLink link='/#' onClick={handleClose}>Products</MenuLink>
                 <MenuLink link='/#' onClick={handleClose}>About</MenuLink>
+                <MenuLink link= '/admin' onClick={handleClose}>profile</MenuLink>
               </Box>
             </Menu>
           </Grid>
